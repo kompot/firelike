@@ -4,9 +4,19 @@
   "main": "src/index.ts",
   "license": "MIT",
   "dependencies": {
-    "jest": "^22",
-    "ts-jest": "^22",
+    "@types/uws": "^0.13.2",
+    "ts-node": "^6.0.0",
     "typescript": "^2.8",
     "uws": "^9"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "jest": "^22",
+    "ts-jest": "^22"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node ./src/index.ts",
+    "test": "./node_modules/.bin/jest",
+    "test:watch": "./node_modules/.bin/jest --watch"
   }
 }
