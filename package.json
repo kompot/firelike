@@ -1,0 +1,10 @@
+{
+  "name": "firelike",
+  "version": "0.0.1",
+  "description": "MongoDB-based realtime storage inspired by Firebase",
+  "main": "src/index.ts",
+  "repository": "git://github.com/kompot/firelike",
+  "author": "Anton Fedchenko <kompotik@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}

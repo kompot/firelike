@@ -1,0 +1,12 @@
+{
+  "name": "firelike-server",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^22",
+    "ts-jest": "^22",
+    "typescript": "^2.8",
+    "uws": "^9"
+  }
+}
